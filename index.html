@@ -3,22 +3,34 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Vaulora</title>
-<meta name="description" content="Vaulora: a private, encrypted vault for your photos, files and notes on iPhone.">
-<style>
-  :root { color-scheme: light dark; --accent: #5A5BD1; }
-  body { margin: 0; font: 17px/1.5 -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif; background: Canvas; color: CanvasText; }
-  main { max-width: 640px; margin: 0 auto; padding: 72px 16px; text-align: center; }
-  h1 { font-size: 40px; margin: 0 0 8px; }
-  p { color: GrayText; margin: 0 0 24px; }
-  a { color: var(--accent); }
-</style>
+<title>Vaulora: Secure Folder &amp; Vault</title>
+<meta name="description" content="Vaulora is a private, encrypted vault for your photos, files and notes on iPhone, iPad and Mac. No accounts, no tracking.">
+<link rel="icon" href="assets/icon.png">
+<link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
 <main>
-  <h1>Vaulora</h1>
-  <p>A private, encrypted vault for your photos, files and notes on iPhone.<br>No accounts. No tracking. Everything stays encrypted on your device.</p>
-  <p>Coming soon to the App Store.</p>
+  <header>
+    <img src="assets/icon.png" alt="">
+    <h1>Vaulora</h1>
+    <p class="lead">Hide photos, files and notes in a vault that only you can open.</p>
+  </header>
+
+  <div class="grid">
+    <div class="card"><h3>Encrypted on your device</h3><p>Every photo, file, note and file name is encrypted with AES-256 before it's saved. Your PIN or password is hardened with Argon2id.</p></div>
+    <div class="card"><h3>No accounts, no tracking</h3><p>Vaulora has no servers, no ads and no analytics. Nothing about you or your files is collected.</p></div>
+    <div class="card"><h3>A real gallery</h3><p>Albums, Live Photos, videos that stream without being decrypted to disk, slideshows and the in-app camera.</p></div>
+    <div class="card"><h3>Files and notes</h3><p>Folders for anything, Markdown notes with checklists, and encrypted .7z and .zip archives that open anywhere.</p></div>
+    <div class="card"><h3>Decoy vault</h3><p>A second PIN opens a separate vault. Nothing on your device shows that it exists.</p></div>
+    <div class="card"><h3>Break-in photos</h3><p>See who entered a wrong PIN, and when.</p></div>
+    <div class="card"><h3>iCloud sync, still encrypted</h3><p>Optional: your vault is copied to your own iCloud exactly as it's stored on your device, so only you can open it.</p></div>
+    <div class="card"><h3>Paid once</h3><p>No subscription and no in-app purchases.</p></div>
+  </div>
+
+  <p class="muted" style="text-align:center">Coming soon to the App Store for iPhone, iPad and Mac.</p>
+
+  <nav><a href="support.html">Support</a> <a href="privacy.html">Privacy Policy</a></nav>
+  <footer>© 2026 Vaulora</footer>
 </main>
 </body>
 </html>
